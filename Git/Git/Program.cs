@@ -2,7 +2,6 @@
 
 namespace Git
 {
-
     /// <summary>
     ///  Spider Rock Example Git Program
     /// </summary>

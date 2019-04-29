@@ -1,16 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Git
 {
+    /// <summary>
+    ///  Example methods 
+    /// </summary>
+
     public static class Method
     {
+        internal static Random Seed = new Random();
+
         public static int Random()
         {
-            return 4;
+            return Seed.Next();
         }
 
     }
