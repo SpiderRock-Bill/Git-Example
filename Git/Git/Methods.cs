@@ -10,10 +10,6 @@ namespace Git
     {
         internal static Random Seed = new Random();
 
-        public static int Random()
-        {
-            return Seed.Next();
-        }
-
+        public static int Random() => Seed.Next();
     }
 }
